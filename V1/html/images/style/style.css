@@ -1,0 +1,102 @@
+#Boutons{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px; 
+}
+
+#Boutons a{
+    margin: 40px;
+    padding: 10px;
+    background-color: darksalmon;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+
+form div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 4px;
+    width: 90%;
+}
+
+header{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+nav{
+    /* background-color: burlywood; */
+    height: 60px;
+    border: 1px solid black;
+    width: 100%; /* pas necessaire car herite de la largeur du block parent? */
+}
+
+section{
+    width: 40%;
+    min-height: 200px;
+    border: 1px solid black;
+    float: left;
+}
+aside{
+    width: 59%;
+    border: 1px solid black;
+    min-height: 200px;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+body{
+    background-color: #EEEEFF;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#choix-livre{
+    margin: 10px;
+}
+input[type = "submit"]{
+    background-color: green;
+    color: aliceblue;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+#btnfinachatlocation{
+    width: 100%;
+    text-align: center;
+}
+input[type = "reset"]{
+    background-color: rgba(238, 74, 74, 0.637);
+    color: aliceblue;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+#formcontact{
+    margin: auto;
+    width: 50%;
+}
+#mailperso{
+    font-size: 15px;
+    color: red;
+    font-family: cursive;
+}
+#contenupageaccueil{
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 40px;
+}
